@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0vm;
+    padding: 0vm;
+}
+.main_block article {
+    padding: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+}
+
+.main_block {
+    /* color: white; */
+    background-color: black;
+}
+.card {
+    padding: 1vw;
+    width: 15vw;
+    background-color: pink;
+    border-radius: 1vw;
+    transition: all 0.5s;
+}
+.card:hover {
+    transform: scale(1.2);
+}
+.card img {
+    width: 100%;
+    border-radius: 1vw;
+}
+.card h2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+.card a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5vw;
+    background-color: red;
+    color: wheat;
+}
